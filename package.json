@@ -1,0 +1,19 @@
+{
+	"name": "git-repo-merge",
+	"version": "0.0.1",
+	"author": {
+		"name" : "Philip Skinner",
+		"email" : "me@philip-skinner.co.uk"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/nyc ./node_modules/.bin/jasmine && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+	},
+	"bin" : {
+		"git-merge-repo" : "./main.js"
+	},
+	"devDependencies": {
+		"coveralls": "^3.1.1",
+		"jasmine": "^3.5.0",
+		"sinon": "^11.1.1"
+	}
+}

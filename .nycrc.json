@@ -1,0 +1,12 @@
+{
+	"all" : true,
+	"exclude" : [
+		"spec/**/*.js",
+		"main.js",
+		"coverage/**/*"
+	],
+	"reporter" : [
+		"lcov",
+		"text"
+	]
+}
