@@ -1,6 +1,17 @@
 {
 	"name": "git-repo-merge",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"description" : "Utility for merging many git repos into a single repository.",
+	"keywords": [
+		"git",
+		"merge",
+		"monorepo"
+	],
+	"license" : "MIT",
+	"bugs" : {
+		"url" : "https://github.com/PhilipSkinner/git-repo-merge/issues"
+	},
+	"homepage" : "https://github.com/PhilipSkinner/git-repo-merge",
 	"author": {
 		"name" : "Philip Skinner",
 		"email" : "me@philip-skinner.co.uk"
